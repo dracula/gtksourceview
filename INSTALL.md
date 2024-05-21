@@ -25,7 +25,7 @@
  4. Finally, create a symbolic link from the local repository to [GtkSourceView](https://wiki.gnome.org/Projects/GtkSourceView)’s styles folder:
 
     ```bash
-    ln -s ./dracula.xml $HOME/.local/share/gtksourceview-5/styles
+    ln -s $PWD/dracula.xml $HOME/.local/share/gtksourceview-5/styles
     ```
 
 #### Install manually
