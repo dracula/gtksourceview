@@ -44,7 +44,7 @@
   <style name="bracket-match"            underline="low"/>
   <style name="bracket-mismatch"         foreground="red" underline="error-line"/>
   <style name="current-line"             background="#rgba(98,114,164,0.5)"/>
-  <style name="current-line-number"      background="#rgba(98,114,164,0.493333)" foreground="foreground" bold="false"/>
+  <style name="current-line-number"      background="#rgba(98,114,164,0.5)" foreground="foreground" bold="false"/>
   <style name="cursor"                   foreground="foreground"/>
   <style name="line-numbers"             background="background" foreground="gray"/>
   <style name="map-overlay"              background="#rgba(255,121,198,0.2)"/>
@@ -58,7 +58,7 @@
   <!-- Defaults -->
   <style name="def:base-n-integer"       foreground="purple"/>
   <style name="def:boolean"              foreground="purple"/>
-  <style name="def:builtin"              foreground="cyan" scale="1.3000000000000003"/>
+  <style name="def:builtin"              foreground="cyan"/>
   <style name="def:character"            foreground="purple"/>
   <style name="def:comment"              foreground="comment"/>
   <style name="def:complex"              foreground="purple"/>
