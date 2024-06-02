@@ -43,15 +43,15 @@
   <style name="background-pattern"       background="current_line"/>
   <style name="bracket-match"            underline="low"/>
   <style name="bracket-mismatch"         foreground="red" underline="error-line"/>
-  <style name="current-line"             background="#rgba(98,114,164,0.5)"/>
-  <style name="current-line-number"      background="#rgba(98,114,164,0.5)" foreground="foreground" bold="false"/>
+  <style name="current-line"             background="#rgba(98,114,164,0.3)"/>
+  <style name="current-line-number"      background="#rgba(98,114,164,0.3)" foreground="foreground" bold="false"/>
   <style name="cursor"                   foreground="foreground"/>
   <style name="line-numbers"             background="background" foreground="gray"/>
   <style name="map-overlay"              background="#rgba(255,121,198,0.2)"/>
   <style name="right-margin"             background="current_line"/>
   <style name="search-match"             background="#rgba(255,184,108,0.5)"/>
   <style name="secondary-cursor"         foreground="foreground"/>
-  <style name="selection"                background="#7A87B2"/>
+  <style name="selection"                background="comment"/>
   <style name="selection-unfocused"      background="current_line"/>
   <style name="text"                     background="background" foreground="foreground"/>
 
