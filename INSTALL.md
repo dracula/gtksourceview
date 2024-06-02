@@ -4,7 +4,7 @@
 
 #### Install using Git
 
- 1. Clone the [`gtksourceview` repository](https://github.com/dracula/gtk):
+ 1. Clone the [`gtksourceview` repository](https://github.com/dracula/gtksourceview):
 
     ```bash
     git clone https://github.com/dracula/gtksourceview.git
