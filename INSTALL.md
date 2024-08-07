@@ -4,25 +4,25 @@
 
 #### Install using Git
 
- 1. Clone the [`gtksourceview` repository](https://github.com/dracula/gtksourceview):
+1.  Clone the [`gtksourceview` repository](https://github.com/dracula/gtksourceview):
 
     ```bash
     git clone https://github.com/dracula/gtksourceview.git
     ```
 
- 2. Move into the cloned repository:
+2.  Move into the cloned repository:
 
     ```bash
     cd ./gtksourceview
     ```
 
- 3. Create the directory `gtksourceview-5/styles` if it does not exist in `$HOME/.local/share`:
+3.  Create the directory `gtksourceview-5/styles` if it does not exist in `$HOME/.local/share`:
 
     ```bash
     mkdir -p $HOME/.local/share/gtksourceview-5/styles
     ```
 
- 4. Finally, create a symbolic link from the local repository to [GtkSourceView](https://wiki.gnome.org/Projects/GtkSourceView)’s styles folder:
+4.  Finally, create a symbolic link from the local repository to [GtkSourceView](https://wiki.gnome.org/Projects/GtkSourceView)’s styles folder:
 
     ```bash
     ln -s $PWD/dracula.xml $HOME/.local/share/gtksourceview-5/styles
@@ -30,11 +30,11 @@
 
 #### Install manually
 
- 1. Download the [`gtksourceview` archive](https://github.com/dracula/gtksourceview/archive/main.zip) and extract it.
+1.  Download the [`gtksourceview` archive](https://github.com/dracula/gtksourceview/archive/main.zip) and extract it.
 
- 2. Create the directory `gtksourceview-5/styles` if it does not exist in `$HOME/.local/share`.
+2.  Create the directory `gtksourceview-5/styles` if it does not exist in `$HOME/.local/share`.
 
- 3. Move the `dracula.xml` file from the extracted archive to [GtkSourceView](https://wiki.gnome.org/Projects/GtkSourceView)’s style folder `$HOME/.local/share/gtksourceview-5/styles`
+3.  Move the `dracula.xml` file from the extracted archive to [GtkSourceView](https://wiki.gnome.org/Projects/GtkSourceView)’s style folder `$HOME/.local/share/gtksourceview-5/styles`
 
 #### Activating theme
 
